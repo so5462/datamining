@@ -161,7 +161,7 @@ Main function that executes the program in the order
 '''
 def main():
     # Get data from CSV file and store it
-    speed_data = fetch_data("UNCLASSIFIED_2171_Speed_Observations_for_128_vehicles.csv")
+    speed_data = fetch_data("speed_data.csv")
 
     # Sort the data in order to be able to obtain min and ax
     speed_data.sort()
